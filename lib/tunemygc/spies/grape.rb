@@ -24,14 +24,14 @@ module TuneMyGc
       def before
         if self.class.enabled
           TuneMyGc.processing_started
-          TuneMyGc.log "PROCESSING_STARTED"
+          # TuneMyGc.log "PROCESSING_STARTED"
         end
       end
 
       def after
         if self.class.enabled
           TuneMyGc.processing_ended
-          TuneMyGc.log "PROCESSING_ENDED"
+          # TuneMyGc.log "PROCESSING_ENDED"
         end
         return nil
       end
