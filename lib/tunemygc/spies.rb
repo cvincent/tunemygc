@@ -11,6 +11,7 @@ module TuneMyGc
 
     # Web
     spy :ActionController, 'action_controller'
+    spy :Grape, 'grape'
 
     # Manual
     spy :Manual, 'manual'
